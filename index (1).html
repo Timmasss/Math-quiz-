@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Quiz Game</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game-header">
+        <h1>Математический квиз</h1>
+        <div id="timer">Time: 30s</div>
+        <div id="score">Score: 0</div>
+      </div>
+
+      <div class="game-content">
+        <div id="question"></div>
+        <div id="options" class="options-grid"></div>
+      </div>
+
+      <button id="startButton" class="start-button">Начать игру</button>
+
+      <div id="results" class="results hidden">
+        <h2>Game Over!</h2>
+        <div id="finalScore"></div>
+        <button id="restartButton" class="start-button">Начать заново</button>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
